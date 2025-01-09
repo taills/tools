@@ -1,3 +1,7 @@
+
+# apt install ubuntu-release-upgrader-core -y && apt upgrade && reboot
+
+
 mkdir /tmp/temp_web
 
 # 以下升级信息可以用浏览器访问 https://changelogs.ubuntu.com/ 获取，在ubuntu18里面curl或wget是获取不到的，想了解原因的可自行搜索。
@@ -439,10 +443,10 @@ Version: 6.06 LTS
 Date: Thu, 01 Jun 2006 9:00:00 UTC
 Supported: 0
 Description: This is the Dapper Drake release
-Release-File: http://old-releases.ubuntu.com/ubuntu/dists/dapper/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/dapper-updates/Release
 ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
-UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/dapper/main/dist-upgrader-all/current/dapper.tar.gz
-UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/dapper/main/dist-upgrader-all/current/dapper.tar.gz.gpg
+UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/dapper-updates/main/dist-upgrader-all/current/dapper.tar.gz
+UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/dapper-updates/main/dist-upgrader-all/current/dapper.tar.gz.gpg
 
 Dist: hardy
 Name: Hardy Heron
@@ -450,7 +454,7 @@ Version: 8.04.1 LTS
 Date: Thu, 24 Apr 2008 12:00:00 UTC
 Supported: 0
 Description: This is the 8.04.1 LTS release
-Release-File: http://old-releases.ubuntu.com/ubuntu/dists/hardy/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/hardy-updates/Release
 ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
 UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.31/hardy.tar.gz
 UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.31/hardy.tar.gz.gpg
@@ -461,10 +465,10 @@ Version: 10.04.4 LTS
 Date: Thu, 29 Apr 2010 12:00:00 UTC
 Supported: 0
 Description: This is the 10.04.4 LTS release
-Release-File: http://old-releases.ubuntu.com/ubuntu/dists/lucid/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/lucid-updates/Release
 ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
-UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz
-UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz.gpg
+UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/lucid-updates/main/dist-upgrader-all/current/lucid.tar.gz
+UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/lucid-updates/main/dist-upgrader-all/current/lucid.tar.gz.gpg
 
 Dist: precise
 Name: Precise Pangolin
@@ -472,7 +476,7 @@ Version: 12.04.5 LTS
 Date: Thu, 26 Apr 2012 12:04:00 UTC
 Supported: 0
 Description: This is the 12.04.5 LTS release
-Release-File: http://old-releases.ubuntu.com/ubuntu/dists/precise/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/precise-updates/Release
 ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
 UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz
 UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz.gpg
@@ -483,7 +487,7 @@ Version: 14.04.6 LTS
 Date: Thu, 17 Apr 2014 14:04:00 UTC
 Supported: 1
 Description: This is the 14.04.6 LTS release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/trusty/Release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/trusty-updates/Release
 ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
 UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz
@@ -495,7 +499,7 @@ Version: 16.04.7 LTS
 Date: Thu, 21 April 2016 16:04:00 UTC
 Supported: 1
 Description: This is the 16.04.7 LTS release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/xenial/Release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/xenial-updates/Release
 ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/xenial-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/xenial-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
 UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/xenial-updates/main/dist-upgrader-all/current/xenial.tar.gz
@@ -507,7 +511,7 @@ Version: 18.04.6 LTS
 Date: Thu, 26 April 2018 18:04:00 UTC
 Supported: 1
 Description: This is the 18.04.6 LTS release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/bionic/Release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/bionic-updates/Release
 ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
 UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/dist-upgrader-all/current/bionic.tar.gz
@@ -527,15 +531,27 @@ UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/focal-updates/main/
 
 Dist: jammy
 Name: Jammy Jellyfish
-Version: 22.04.3 LTS
+Version: 22.04.5 LTS
 Date: Thu, 21 April 2022 22:04:00 UTC
 Supported: 1
-Description: This is the 22.04.3 LTS release
+Description: This is the 22.04.5 LTS release
 Release-File: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/Release
 ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
 UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz
 UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz.gpg
+
+Dist: noble
+Name: Noble Numbat
+Version: 24.04.1 LTS
+Date: Thu, 25 April 2024 23:59:59 UTC
+Supported: 1
+Description: This is the 24.04.1 LTS release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/noble-updates/Release
+ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/noble.tar.gz
+UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/noble.tar.gz.gpg
 EOF
 
 # 使用python3 开一个临时的web服务器，并让其在后台运行
